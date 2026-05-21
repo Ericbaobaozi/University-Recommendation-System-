@@ -1,0 +1,242 @@
+name,country,min_score_ib,min_score_ossd,tuition,admission_rate,majors,source_url
+University of Oxford,United Kingdom,40,93,38000,17.5,Physics;Computer Science;Materials Science;Philosophy;Law;Medicine;Biochemistry;Mathematics,https://www.ox.ac.uk
+University of Cambridge,United Kingdom,40,93,37000,21,Pharmacology;Physics;Molecular Biology;Natural Sciences;Engineering;Mathematics;Computer Science;Medicine,https://www.cam.ac.uk
+Imperial College London,United Kingdom,38,90,40000,14.3,Engineering;Biochemistry;Physics;Medicine;Computer Science;Materials Science;Biomedical Engineering;Chemistry,https://www.imperial.ac.uk
+University College London,United Kingdom,36,88,35000,27,Materials Science;Mathematics;Molecular Biology;Architecture;Law;Neuroscience;Economics;Medicine,https://www.ucl.ac.uk
+London School of Economics and Political Science,United Kingdom,38,90,28000,8.9,Economics;Political Science;International Relations;Finance;Sociology;Law;Statistics;Anthropology,https://www.lse.ac.uk
+University of Edinburgh,United Kingdom,36,87,32000,42,Data Science;Medicine;Computer Science;Veterinary Science;Artificial Intelligence;Philosophy;Law;Biomedical Sciences,https://www.ed.ac.uk
+King's College London,United Kingdom,35,86,33000,30,Mathematics;Public Health;Biotechnology;Law;Medicine;Neuroscience;Psychology;Nursing,https://www.kcl.ac.uk
+University of Manchester,United Kingdom,34,85,30000,58,Mathematics;Chemistry;Data Science;Physics;Engineering;Computer Science;Biomedical Sciences;Materials Science,https://www.manchester.ac.uk
+University of Bristol,United Kingdom,35,86,32000,29,Biological Sciences;Pharmacology;Genetics;Engineering;Law;Veterinary Science;Physics;Mathematics,https://www.bristol.ac.uk
+University of Glasgow,United Kingdom,34,84,28000,48,Computer Science;Molecular Biology;Medicine;Veterinary Science;Engineering;Law;Physics;Biomedical Sciences,https://www.gla.ac.uk
+University of Warwick,United Kingdom,36,87,30000,50,Mathematics;Economics;Engineering;Business;Computer Science;Physics;Chemistry;Statistics,https://www.warwick.ac.uk
+University of Birmingham,United Kingdom,32,82,28000,55,Biotechnology;Biomedical Engineering;Biochemistry;Medicine;Physics;Computer Science;Chemical Engineering;Law,https://www.birmingham.ac.uk
+University of Leeds,United Kingdom,34,84,27000,55,Molecular Biology;Pharmacology;Biological Sciences;Engineering;Business;Computer Science;Medicine;Chemistry,https://www.leeds.ac.uk
+University of Sheffield,United Kingdom,33,82,26000,52,Biomedical Engineering;Pharmacology;Computer Science;Engineering;Architecture;Materials Science;Medicine;Physics,https://www.sheffield.ac.uk
+University of Southampton,United Kingdom,34,84,27000,37,Neuroscience;Data Science;Computer Science;Engineering;Marine Science;Physics;Electronics;Medicine,https://www.southampton.ac.uk
+University of Nottingham,United Kingdom,32,80,26000,45,Microbiology;Data Science;Engineering;Pharmacy;Physics;Chemistry;Medicine;Computer Science,https://www.nottingham.ac.uk
+University of Liverpool,United Kingdom,32,80,24000,50,Molecular Biology;Biological Sciences;Physics;Engineering;Medicine;Veterinary Science;Architecture;Computer Science,https://www.liverpool.ac.uk
+Durham University,United Kingdom,36,87,30000,40,Materials Science;Biochemistry;Physics;Law;Business;English;Natural Sciences;Mathematics,https://www.durham.ac.uk
+Queen Mary University of London,United Kingdom,34,84,26000,32,Neuroscience;Microbiology;Biochemistry;Law;Medicine;English;Computer Science;Engineering,https://www.qmul.ac.uk
+University of Exeter,United Kingdom,34,84,26000,48,Biological Sciences;Biotechnology;Physics;Business;Psychology;Engineering;Computer Science;Mathematics,https://www.exeter.ac.uk
+University of York,United Kingdom,33,82,26000,42,Chemistry;Biomedical Engineering;Computer Science;Psychology;Archaeology;Physics;Electronics;Biology,https://www.york.ac.uk
+University of Leicester,United Kingdom,30,77,22000,58,Physics;Environmental Science;Genetics;Space Science;Archaeology;Medicine;Psychology;Biochemistry,https://le.ac.uk
+University of Aberdeen,United Kingdom,32,80,24000,62,Biomedical Engineering;Medicine;Engineering;Law;Geology;Agriculture;Divinity;Petroleum Engineering,https://www.abdn.ac.uk
+University of Dundee,United Kingdom,32,80,24000,55,Genetics;Neuroscience;Life Sciences;Medicine;Law;Art and Design;Dentistry;Computing,https://www.dundee.ac.uk
+University of St Andrews,United Kingdom,38,90,32000,28,Physics;Chemistry;Biology;Philosophy;International Relations;Computer Science;Medicine;Mathematics,https://www.st-andrews.ac.uk
+University of Sussex,United Kingdom,32,78,24000,48,Engineering;Physics;Genetics;Development Studies;Psychology;Artificial Intelligence;Physics;Media Studies,https://www.sussex.ac.uk
+University of Reading,United Kingdom,30,75,22000,45,Chemistry;Agriculture;Meteorology;Real Estate;Typography;Pharmacy;Food Science;Ecology,https://www.reading.ac.uk
+University of Bath,United Kingdom,35,85,28000,42,Materials Science;Engineering;Architecture;Business;Computer Science;Mathematics;Psychology;Chemistry,https://www.bath.ac.uk
+Lancaster University,United Kingdom,34,84,26000,45,Physics;Biological Sciences;Business;Engineering;Environmental Science;Linguistics;Psychology;Computer Science,https://www.lancaster.ac.uk
+University of Essex,United Kingdom,30,75,21000,52,Politics;Sociology;Economics;Computer Science;Data Science;Human Rights;Linguistics;Drama,https://www.essex.ac.uk
+University of Kent,United Kingdom,30,75,22000,58,Environmental Science;Mathematics;Law;Drama;Social Policy;Architecture;Computing;Biosciences,https://www.kent.ac.uk
+University of Surrey,United Kingdom,32,78,24000,48,Engineering;Computer Science;Hospitality;Space Technology;Veterinary Science;Health Sciences;Music;Business,https://www.surrey.ac.uk
+Newcastle University,United Kingdom,33,82,26000,45,Marine Science;Engineering;Medicine;Architecture;Computing;Agriculture;Music;Business,https://www.ncl.ac.uk
+Cardiff University,United Kingdom,32,78,24000,38,Journalism;Architecture;Medicine;Pharmacy;Optometry;Psychology;Engineering;Business,https://www.cardiff.ac.uk
+Loughborough University,United Kingdom,33,82,26000,55,Sports Science;Engineering;Design;Business;Computer Science;Physics;Chemistry;Materials Science,https://www.lboro.ac.uk
+Royal Holloway University of London,United Kingdom,32,78,24000,52,Information Security;Creative Arts;Psychology;Geography;Media;History;Physics;Computer Science,https://www.royalholloway.ac.uk
+Massachusetts Institute of Technology,United States,42,95,58000,4.0,Computer Science;Engineering;Physics;Mathematics;Artificial Intelligence;Robotics;Economics;Neuroscience,https://www.mit.edu
+Stanford University,United States,42,95,60000,4.3,Computer Science;Engineering;Medicine;Business;Artificial Intelligence;Law;Psychology;Biology,https://www.stanford.edu
+Harvard University,United States,42,95,57000,3.4,Biology;Medicine;Law;Business;Economics;Government;Computer Science;History,https://www.harvard.edu
+California Institute of Technology,United States,42,95,58000,3.9,Physics;Engineering;Astronomy;Chemistry;Computer Science;Mathematics;Biology;Geological Sciences,https://www.caltech.edu
+Princeton University,United States,42,95,57000,5.9,Mathematics;Physics;Economics;Computer Science;Public Policy;Engineering;Philosophy;History,https://www.princeton.edu
+Yale University,United States,41,94,62000,6.3,Law;Drama;History;Medicine;Political Science;Economics;Art;Psychology,https://www.yale.edu
+University of Chicago,United States,41,94,60000,6.5,Economics;Physics;Mathematics;Sociology;Law;Business;Political Science;Philosophy,https://www.uchicago.edu
+Columbia University,United States,40,93,65000,5.5,Journalism;Law;Business;Medicine;International Affairs;Computer Science;Engineering;Social Work,https://www.columbia.edu
+University of Pennsylvania,United States,40,93,63000,8.4,Business;Medicine;Law;Nursing;Engineering;Dental Medicine;Veterinary Medicine;Education,https://www.upenn.edu
+Johns Hopkins University,United States,39,92,60000,11.1,Medicine;Public Health;International Studies;Biomedical Engineering;Nursing;Computer Science;Physics;Biology,https://www.jhu.edu
+Cornell University,United States,38,91,62000,10.9,Hotel Administration;Engineering;Agriculture;Veterinary Medicine;Architecture;Computer Science;Business;Biology,https://www.cornell.edu
+Duke University,United States,39,92,62000,7.4,Medicine;Law;Public Policy;Business;Computer Science;Biomedical Engineering;Economics;Political Science,https://www.duke.edu
+Northwestern University,United States,38,91,62000,9.3,Journalism;Theatre;Engineering;Business;Law;Medicine;Education;Music,https://www.northwestern.edu
+University of California Berkeley,United States,39,91,45000,14.4,Computer Science;Engineering;Business;Chemistry;Physics;Economics;Law;Public Policy,https://www.berkeley.edu
+University of California Los Angeles,United States,37,89,45000,12.4,Film;Theatre;Medicine;Engineering;Psychology;Computer Science;Business;Public Health,https://www.ucla.edu
+University of California San Diego,United States,36,88,46000,30.0,Biology;Engineering;Medicine;Computer Science;Oceanography;Physics;Chemistry;Cognitive Science,https://www.ucsd.edu
+University of California Davis,United States,34,85,47000,46.0,Agriculture;Veterinary Medicine;Environmental Science;Biology;Engineering;Food Science;Animal Science;Ecology,https://www.ucdavis.edu
+University of Michigan,United States,37,89,55000,20.0,Engineering;Business;Medicine;Law;Computer Science;Psychology;Information Science;Public Policy,https://umich.edu
+University of Washington,United States,35,86,42000,48.0,Computer Science;Medicine;Engineering;Information Science;Biology;Business;Public Health;Oceanography,https://www.washington.edu
+University of Wisconsin Madison,United States,34,85,40000,52.0,Biology;Engineering;Business;Computer Science;Agriculture;Social Work;Journalism;Chemistry,https://www.wisc.edu
+Carnegie Mellon University,United States,39,92,60000,15.0,Computer Science;Robotics;Engineering;Business;Drama;Design;Artificial Intelligence;Machine Learning,https://www.cmu.edu
+Georgia Institute of Technology,United States,35,86,35000,21.0,Engineering;Computer Science;Business;Architecture;Industrial Design;Physics;Chemistry;Biology,https://www.gatech.edu
+New York University,United States,36,88,58000,12.8,Business;Film;Law;Medicine;Journalism;Computer Science;Drama;Public Health,https://www.nyu.edu
+Brown University,United States,39,92,62000,7.0,Computer Science;Engineering;Applied Mathematics;Neuroscience;Economics;Biomedical Engineering;History;English,https://www.brown.edu
+Dartmouth College,United States,38,91,62000,8.7,Computer Science;Economics;Government;Engineering;Biology;Medicine;English;History,https://www.dartmouth.edu
+Rice University,United States,38,91,54000,11.0,Engineering;Computer Science;Architecture;Business;Physics;Chemistry;Biology;Economics,https://www.rice.edu
+Vanderbilt University,United States,37,89,58000,11.6,Medicine;Education;Business;Law;Engineering;Nursing;Divinity;Music,https://www.vanderbilt.edu
+University of Notre Dame,United States,36,88,58000,19.0,Business;Engineering;Political Science;Theology;Architecture;Law;Science;Arts,https://www.nd.edu
+University of Virginia,United States,35,86,54000,24.0,Law;Business;Medicine;Architecture;Engineering;Computer Science;Politics;Economics,https://www.virginia.edu
+University of Southern California,United States,36,88,62000,13.0,Film;Business;Engineering;Medicine;Journalism;Computer Science;Music;Architecture,https://www.usc.edu
+Boston University,United States,34,85,62000,20.0,Law;Medicine;Engineering;Business;Communications;Computer Science;International Relations;Psychology,https://www.bu.edu
+University of Toronto,Canada,37,90,45000,43.0,Medicine;Computer Science;Engineering;Business;Law;Life Sciences;Artificial Intelligence;Pharmacy,https://www.utoronto.ca
+University of British Columbia,Canada,36,89,42000,52.0,Forestry;Medicine;Environmental Science;Computer Science;Engineering;Business;Pharmacy;Mining Engineering,https://www.ubc.ca
+McGill University,Canada,37,90,45000,42.0,Medicine;Law;Music;Computer Science;Engineering;Business;Neuroscience;Political Science,https://www.mcgill.ca
+University of Alberta,Canada,33,83,30000,58.0,Engineering;Medicine;Earth Sciences;Computer Science;Agriculture;Business;Nursing;Pharmacy,https://www.ualberta.ca
+University of Waterloo,Canada,35,87,35000,53.0,Computer Science;Engineering;Mathematics;Actuarial Science;Cooperative Education;Physics;Nanotechnology;Business,https://uwaterloo.ca
+McMaster University,Canada,34,85,38000,58.0,Medicine;Engineering;Business;Health Sciences;Nursing;Computer Science;Chemistry;Biology,https://www.mcmaster.ca
+University of Montreal,Canada,33,83,28000,55.0,Law;Medicine;Veterinary Medicine;Pharmacy;Computer Science;Psychology;Education;Architecture,https://www.umontreal.ca
+Queen's University,Canada,34,85,42000,42.0,Business;Engineering;Law;Medicine;Computer Science;Health Sciences;Mining Engineering;Policy Studies,https://www.queensu.ca
+University of Calgary,Canada,32,82,28000,65.0,Engineering;Medicine;Veterinary Medicine;Business;Computer Science;Law;Nursing;Geoscience,https://www.ucalgary.ca
+Western University,Canada,33,83,35000,55.0,Business;Medicine;Engineering;Law;Dentistry;Music;Media Studies;Health Sciences,https://www.uwo.ca
+University of Ottawa,Canada,32,82,32000,60.0,Law;Medicine;Engineering;Business;Health Sciences;Computer Science;Political Science;Social Sciences,https://www.uottawa.ca
+Simon Fraser University,Canada,32,82,30000,62.0,Computer Science;Business;Communications;Criminology;Health Sciences;Engineering;Environmental Science;Arts,https://www.sfu.ca
+Dalhousie University,Canada,31,80,28000,65.0,Medicine;Law;Ocean Sciences;Engineering;Agriculture;Dentistry;Computer Science;Health Professions,https://www.dal.ca
+University of Melbourne,Australia,36,88,48000,42.0,Medicine;Law;Business;Engineering;Architecture;Computer Science;Biomedical Science;Arts,https://www.unimelb.edu.au
+Australian National University,Australia,35,86,47000,35.0,Political Science;International Relations;Law;Physics;Astronomy;Biology;Computer Science;Asian Studies,https://www.anu.edu.au
+University of Sydney,Australia,36,88,50000,30.0,Medicine;Law;Architecture;Business;Engineering;Veterinary Science;Pharmacy;Music,https://www.sydney.edu.au
+University of New South Wales,Australia,35,86,48000,35.0,Engineering;Business;Medicine;Law;Computer Science;Architecture;Art and Design;Science,https://www.unsw.edu.au
+Monash University,Australia,34,84,46000,50.0,Pharmacy;Engineering;Medicine;Law;Business;Education;Science;Arts,https://www.monash.edu
+University of Queensland,Australia,34,84,45000,53.0,Medicine;Engineering;Business;Science;Veterinary Science;Agriculture;Tourism;Architecture,https://www.uq.edu.au
+University of Western Australia,Australia,33,82,42000,58.0,Medicine;Law;Engineering;Agriculture;Marine Science;Mining Engineering;Business;Arts,https://www.uwa.edu.au
+University of Adelaide,Australia,32,80,40000,62.0,Medicine;Engineering;Wine and Food Science;Agriculture;Music;Law;Veterinary Science;Dentistry,https://www.adelaide.edu.au
+University of Auckland,New Zealand,33,84,36000,60.0,Medicine;Engineering;Law;Business;Computer Science;Marine Science;Architecture;Arts,https://www.auckland.ac.nz
+University of Otago,New Zealand,32,82,35000,65.0,Medicine;Dentistry;Pharmacy;Physical Education;Biomedical Sciences;Law;Business;Tourism,https://www.otago.ac.nz
+Victoria University of Wellington,New Zealand,31,80,32000,68.0,Law;International Relations;Creative Arts;Architecture;Engineering;Computer Science;Business;Humanities,https://www.wgtn.ac.nz
+ETH Zurich,Switzerland,40,93,3000,27.0,Engineering;Computer Science;Physics;Mathematics;Architecture;Biology;Chemistry;Environmental Science,https://ethz.ch
+EPFL,Switzerland,39,92,2800,25.0,Engineering;Computer Science;Physics;Mathematics;Life Sciences;Architecture;Microengineering;Materials Science,https://www.epfl.ch
+University of Zurich,Switzerland,35,86,3200,45.0,Medicine;Law;Economics;Psychology;Neuroscience;Biology;Computer Science;Physics,https://www.uzh.ch
+University of Geneva,Switzerland,34,85,2800,48.0,International Relations;Law;Medicine;Science;Economics;Psychology;Translation;Theology,https://www.unige.ch
+University of Basel,Switzerland,33,84,2600,52.0,Pharmacy;Medicine;Law;Biology;Chemistry;Physics;Psychology;History,https://www.unibas.ch
+National University of Singapore,Singapore,38,91,38000,12.0,Computer Science;Engineering;Business;Medicine;Law;Science;Design;Public Policy,https://www.nus.edu.sg
+Nanyang Technological University,Singapore,37,90,35000,18.0,Engineering;Computer Science;Business;Communication;Education;Science;Art and Design;Medicine,https://www.ntu.edu.sg
+Singapore Management University,Singapore,34,85,40000,35.0,Business;Accountancy;Law;Economics;Information Systems;Social Sciences;Computing;Data Science,https://www.smu.edu.sg
+University of Hong Kong,Hong Kong,38,91,45000,18.0,Medicine;Law;Business;Engineering;Architecture;Computer Science;Dentistry;Social Sciences,https://www.hku.hk
+Chinese University of Hong Kong,Hong Kong,36,88,42000,25.0,Business;Medicine;Engineering;Law;Science;Social Sciences;Education;Journalism,https://www.cuhk.edu.hk
+Hong Kong University of Science and Technology,Hong Kong,37,90,40000,22.0,Engineering;Business;Science;Computer Science;Social Sciences;Environment;Life Sciences;Design,https://hkust.edu.hk
+Hong Kong Polytechnic University,Hong Kong,32,82,35000,45.0,Hotel Management;Design;Engineering;Health Sciences;Business;Computing;Construction;Textiles,https://www.polyu.edu.hk
+University of Tokyo,Japan,39,92,10000,34.0,Engineering;Medicine;Law;Science;Economics;Agriculture;Education;Pharmacy,https://www.u-tokyo.ac.jp
+Kyoto University,Japan,38,90,9500,38.0,Science;Medicine;Engineering;Law;Economics;Agriculture;Pharmaceutical Sciences;Letters,https://www.kyoto-u.ac.jp
+Osaka University,Japan,36,88,9000,42.0,Medicine;Engineering;Science;Law;Economics;Dentistry;Pharmaceutical Sciences;Foreign Studies,https://www.osaka-u.ac.jp
+Tokyo Institute of Technology,Japan,38,90,9500,25.0,Engineering;Science;Computing;Materials Science;Life Science;Architecture;Chemistry;Physics,https://www.titech.ac.jp
+Tohoku University,Japan,35,86,8500,45.0,Science;Engineering;Medicine;Agriculture;Pharmaceutical Sciences;Dentistry;Law;Economics,https://www.tohoku.ac.jp
+Nagoya University,Japan,35,86,8500,48.0,Science;Engineering;Medicine;Law;Economics;Agriculture;Education;Informatics,https://www.nagoya-u.ac.jp
+Waseda University,Japan,34,85,22000,32.0,Political Science;Economics;Commerce;Law;Literature;Engineering;Education;Sports Sciences,https://www.waseda.jp
+Keio University,Japan,34,85,22000,30.0,Medicine;Business;Law;Economics;Literature;Science;Policy Management;Environment,https://www.keio.ac.jp
+Seoul National University,South Korea,38,91,8000,20.0,Engineering;Medicine;Law;Business;Science;Computer Science;Economics;Pharmacy,https://www.snu.ac.kr
+KAIST,South Korea,39,92,9000,15.0,Engineering;Computer Science;Science;Business;Bio and Brain Engineering;Industrial Design;Technology Policy,https://www.kaist.ac.kr
+POSTECH,South Korea,38,90,9000,18.0,Engineering;Science;Computer Science;Life Sciences;Materials Science;Chemistry;Physics;Mathematics,https://www.postech.ac.kr
+Yonsei University,South Korea,35,86,18000,28.0,Medicine;Law;Business;Engineering;Computer Science;International Studies;Communication;Economics,https://www.yonsei.ac.kr
+Korea University,South Korea,35,86,17000,30.0,Law;Business;Engineering;Medicine;Computer Science;International Studies;Political Science;Economics,https://www.korea.ac.kr
+Sungkyunkwan University,South Korea,34,85,16000,35.0,Business;Medicine;Law;Engineering;Science;Pharmacy;Computer Science;Arts,https://www.skku.edu
+Tsinghua University,China,40,94,8000,5.0,Engineering;Computer Science;Architecture;Business;Science;Economics;Law;Fine Arts,https://www.tsinghua.edu.cn
+Peking University,China,40,94,8000,6.0,Science;Social Sciences;Humanities;Medicine;Law;Business;Economics;Engineering,https://www.pku.edu.cn
+Fudan University,China,38,91,7000,12.0,Medicine;Economics;Journalism;Computer Science;Chemistry;Physics;Philosophy;International Relations,https://www.fudan.edu.cn
+Shanghai Jiao Tong University,China,38,91,7000,10.0,Engineering;Medicine;Business;Computer Science;Science;Law;Agriculture;Pharmacy,https://www.sjtu.edu.cn
+Zhejiang University,China,37,90,7000,15.0,Engineering;Medicine;Computer Science;Agriculture;Science;Management;Law;Arts,https://www.zju.edu.cn
+Nanjing University,China,36,88,6500,18.0,Science;Astronomy;Chemistry;Physics;Computer Science;Business;Philosophy;Literature,https://www.nju.edu.cn
+University of Science and Technology of China,China,38,91,7000,8.0,Science;Engineering;Physics;Chemistry;Computer Science;Mathematics;Life Sciences;Nuclear Science,https://www.ustc.edu.cn
+Wuhan University,China,35,86,6000,20.0,Law;Medicine;Water Resources;Remote Sensing;Chemistry;Journalism;Philosophy;Economics,https://www.whu.edu.cn
+Technical University of Munich,Germany,38,91,600,35.0,Engineering;Computer Science;Physics;Chemistry;Medicine;Architecture;Life Sciences;Management,https://www.tum.de
+Ludwig Maximilian University of Munich,Germany,36,88,400,45.0,Medicine;Law;Physics;Biology;Psychology;Chemistry;Economics;Philosophy,https://www.lmu.de
+Heidelberg University,Germany,36,88,400,42.0,Medicine;Physics;Law;Biology;Chemistry;Philosophy;Economics;Mathematics,https://www.uni-heidelberg.de
+Humboldt University of Berlin,Germany,34,85,400,48.0,Philosophy;Law;Medicine;History;Physics;Biology;Social Sciences;Theology,https://www.hu-berlin.de
+Free University of Berlin,Germany,34,85,400,52.0,Political Science;History;Philosophy;Biology;Chemistry;Physics;Medicine;Earth Sciences,https://www.fu-berlin.de
+RWTH Aachen University,Germany,36,88,500,38.0,Engineering;Computer Science;Physics;Chemistry;Architecture;Mathematics;Medicine;Business,https://www.rwth-aachen.de
+University of Amsterdam,Netherlands,36,88,15000,40.0,Social Sciences;Economics;Law;Medicine;Psychology;Computer Science;Philosophy;Communication,https://www.uva.nl
+Delft University of Technology,Netherlands,37,90,16000,35.0,Engineering;Architecture;Computer Science;Aerospace Engineering;Industrial Design;Applied Sciences;Maritime Technology,https://www.tudelft.nl
+Leiden University,Netherlands,35,86,14000,45.0,Law;Medicine;Humanities;Science;Social Sciences;Archaeology;Astronomy;Governance,https://www.universiteitleiden.nl
+Utrecht University,Netherlands,35,86,14500,42.0,Veterinary Medicine;Medicine;Law;Science;Geosciences;Humanities;Social Sciences;Pharmacy,https://www.uu.nl
+Erasmus University Rotterdam,Netherlands,34,85,15000,48.0,Economics;Business;Medicine;Law;Social Sciences;Philosophy;Health Sciences;Communication,https://www.eur.nl
+University of Groningen,Netherlands,33,84,13500,52.0,Medicine;Law;Philosophy;Science;Economics;Psychology;Pharmacy;Theology,https://www.rug.nl
+KU Leuven,Belgium,37,90,6000,35.0,Engineering;Medicine;Law;Economics;Science;Theology;Philosophy;Social Sciences,https://www.kuleuven.be
+Ghent University,Belgium,35,86,5500,42.0,Veterinary Medicine;Law;Medicine;Engineering;Science;Arts;Psychology;Economics,https://www.ugent.be
+University of Copenhagen,Denmark,36,88,16000,38.0,Medicine;Law;Science;Theology;Social Sciences;Health Sciences;Veterinary Medicine;Humanities,https://www.ku.dk
+Aarhus University,Denmark,34,85,15000,45.0,Medicine;Science;Law;Business;Engineering;Arts;Health;Social Sciences,https://www.au.dk
+Technical University of Denmark,Denmark,36,88,17000,35.0,Engineering;Science;Computer Science;Biotechnology;Aquatic Science;Physics;Chemistry;Food Science,https://www.dtu.dk
+Karolinska Institute,Sweden,38,91,20000,18.0,Medicine;Medical Sciences;Nursing;Dentistry;Public Health;Neuroscience;Biomedicine;Global Health,https://ki.se
+Uppsala University,Sweden,35,86,18000,42.0,Medicine;Science;Law;Humanities;Pharmacy;Social Sciences;Education;Theology,https://www.uu.se
+Lund University,Sweden,35,86,18000,40.0,Medicine;Law;Engineering;Science;Economics;Social Sciences;Humanities;Fine Arts,https://www.lu.se
+Stockholm University,Sweden,34,85,16000,45.0,Science;Humanities;Law;Social Sciences;Business;Psychology;Education;Computer Science,https://www.su.se
+University of Helsinki,Finland,35,86,15000,38.0,Medicine;Law;Science;Veterinary Medicine;Pharmacy;Humanities;Social Sciences;Agriculture,https://www.helsinki.fi
+Aalto University,Finland,36,88,17000,32.0,Engineering;Business;Architecture;Arts and Design;Science;Computer Science;Industrial Engineering;Film,https://www.aalto.fi
+University of Oslo,Norway,34,85,1500,42.0,Medicine;Law;Science;Humanities;Social Sciences;Dentistry;Theology;Education,https://www.uio.no
+Norwegian University of Science and Technology,Norway,35,86,1800,38.0,Engineering;Science;Architecture;Medicine;Social Sciences;Economics;Computer Science;Arts,https://www.ntnu.no
+Sorbonne University,France,36,88,3000,32.0,Medicine;Science;Humanities;Engineering;Law;Social Sciences;Languages;Arts,https://www.sorbonne-universite.fr
+Paris Sciences et Lettres University,France,38,91,5000,15.0,Science;Engineering;Arts;Humanities;Social Sciences;Economics;Law;Design,https://www.psl.eu
+Ecole Polytechnique,France,39,92,15000,12.0,Engineering;Physics;Mathematics;Computer Science;Economics;Biology;Chemistry;Data Science,https://www.polytechnique.edu
+Ecole Normale Superieure Paris,France,40,93,2000,8.0,Science;Humanities;Social Sciences;Philosophy;Mathematics;Physics;Biology;Literature,https://www.ens.psl.eu
+HEC Paris,France,38,91,45000,15.0,Business;Management;Finance;Marketing;Entrepreneurship;Strategy;Luxury Management;Sustainability,https://www.hec.edu
+Sciences Po,France,37,90,22000,20.0,Political Science;International Relations;Law;Economics;Urban Planning;Journalism;Public Affairs;Social Sciences,https://www.sciencespo.fr
+University of Paris-Saclay,France,36,88,3000,35.0,Science;Engineering;Medicine;Economics;Law;Sport Sciences;Pharmacy;Social Sciences,https://www.universite-paris-saclay.fr
+Bocconi University,Italy,36,88,20000,25.0,Economics;Business;Finance;Law;Political Science;Data Science;Management;Marketing,https://www.unibocconi.eu
+University of Bologna,Italy,32,80,4000,55.0,Law;Medicine;Agriculture;Arts;Engineering;Science;Economics;Pharmacy,https://www.unibo.it
+Sapienza University of Rome,Italy,31,78,3500,58.0,Architecture;Medicine;Law;Engineering;Science;Pharmacy;Economics;Humanities,https://www.uniroma1.it
+Politecnico di Milano,Italy,36,88,5000,30.0,Engineering;Architecture;Design;Computer Science;Urban Planning;Aerospace Engineering;Biomedical Engineering,https://www.polimi.it
+University of Barcelona,Spain,33,82,5000,48.0,Medicine;Law;Economics;Biology;Chemistry;Pharmacy;Psychology;History,https://www.ub.edu
+Autonomous University of Barcelona,Spain,32,80,4500,52.0,Veterinary Science;Medicine;Science;Economics;Law;Psychology;Communication;Education,https://www.uab.cat
+Complutense University of Madrid,Spain,31,78,4000,55.0,Medicine;Law;Pharmacy;Philosophy;Science;Economics;Journalism;Dentistry,https://www.ucm.es
+Pompeu Fabra University,Spain,34,85,8000,35.0,Economics;Political Science;Law;Journalism;Humanities;Biology;Translation;Medicine,https://www.upf.edu
+IE University,Spain,36,88,25000,28.0,Business;Law;Architecture;Technology;Communication;Psychology;Politics;Design,https://www.ie.edu
+ESADE,Spain,36,88,32000,25.0,Business;Law;Executive Education;Finance;Marketing;Entrepreneurship;Management,https://www.esade.edu
+University of Vienna,Austria,33,82,3000,48.0,Law;Medicine;Economics;Science;Philosophy;History;Political Science;Social Sciences,https://www.univie.ac.at
+Vienna University of Technology,Austria,35,86,3500,40.0,Engineering;Architecture;Computer Science;Physics;Mathematics;Chemistry;Informatics;Urban Planning,https://www.tuwien.at
+University of Lisbon,Portugal,32,80,7000,50.0,Law;Medicine;Science;Architecture;Engineering;Economics;Social Sciences;Arts,https://www.ulisboa.pt
+University of Porto,Portugal,31,78,6000,52.0,Engineering;Medicine;Science;Economics;Architecture;Law;Arts;Psychology,https://www.up.pt
+Trinity College Dublin,Ireland,36,88,25000,35.0,Law;Medicine;Computer Science;Engineering;Business;Literature;Science;Psychology,https://www.tcd.ie
+University College Dublin,Ireland,34,85,22000,42.0,Medicine;Engineering;Law;Business;Computer Science;Agriculture;Architecture;Veterinary Medicine,https://www.ucd.ie
+University of Cape Town,South Africa,34,85,15000,42.0,Medicine;Law;Engineering;Business;Science;Health Sciences;Humanities;Social Sciences,https://www.uct.ac.za
+University of the Witwatersrand,South Africa,32,82,12000,50.0,Medicine;Engineering;Law;Science;Commerce;Humanities;Health Sciences;Education,https://www.wits.ac.za
+Stellenbosch University,South Africa,31,80,10000,55.0,Agriculture;Engineering;Medicine;Law;Business;Science;Arts;Theology,https://www.sun.ac.za
+Hebrew University of Jerusalem,Israel,36,88,12000,35.0,Medicine;Law;Science;Humanities;Social Sciences;Agriculture;Computer Science;Business,https://new.huji.ac.il
+Tel Aviv University,Israel,35,86,15000,40.0,Law;Medicine;Engineering;Arts;Business;Science;Social Sciences;Computer Science,https://www.tau.ac.il
+Technion Israel Institute of Technology,Israel,38,91,18000,28.0,Engineering;Computer Science;Medicine;Architecture;Science;Aerospace Engineering;Biomedical Engineering,https://www.technion.ac.il
+Weizmann Institute of Science,Israel,40,93,5000,15.0,Physics;Chemistry;Biology;Mathematics;Computer Science;Neuroscience;Molecular Biology,https://www.weizmann.ac.il
+University of Sao Paulo,Brazil,33,82,3000,45.0,Medicine;Law;Engineering;Agriculture;Architecture;Business;Science;Arts,https://www.usp.br
+University of Campinas,Brazil,32,80,2500,48.0,Engineering;Medicine;Science;Computer Science;Economics;Agriculture;Philosophy;Arts,https://www.unicamp.br
+Pontifical Catholic University of Chile,Chile,34,85,18000,32.0,Medicine;Engineering;Law;Architecture;Business;Design;Psychology;Social Sciences,https://www.uc.cl
+University of Chile,Chile,32,80,5000,42.0,Medicine;Law;Engineering;Architecture;Science;Arts;Economics;Agriculture,https://www.uchile.cl
+National Autonomous University of Mexico,Mexico,31,78,1500,45.0,Medicine;Law;Engineering;Architecture;Science;Arts;Economics;Philosophy,https://www.unam.mx
+Monterrey Institute of Technology,Mexico,34,85,15000,30.0,Engineering;Business;Medicine;Architecture;Design;Biotechnology;Computer Science;Social Sciences,https://www.tec.mx
+University of Buenos Aires,Argentina,32,80,2000,42.0,Medicine;Law;Engineering;Economics;Architecture;Psychology;Philosophy;Science,https://www.uba.ar
+Indian Institute of Technology Bombay,India,38,91,3000,2.0,Engineering;Computer Science;Science;Design;Management;Physics;Chemistry;Mathematics,https://www.iitb.ac.in
+Indian Institute of Technology Delhi,India,38,91,3000,2.5,Engineering;Computer Science;Science;Design;Management;Physics;Chemistry;Biotechnology,https://www.iitd.ac.in
+Indian Institute of Science,India,39,92,2000,3.0,Science;Engineering;Biology;Physics;Chemistry;Materials Science;Computer Science;Mathematics,https://www.iisc.ac.in
+name,country,min_score_ib,min_score_ossd,tuition,admission_rate,majors,source_url
+Washington University in St. Louis,United States,38,91,62000,13.0,Medicine;Business;Law;Engineering;Social Work;Architecture;Art;Computer Science,https://www.wustl.edu
+Emory University,United States,36,88,58000,15.6,Medicine;Business;Law;Public Health;Nursing;Theology;Liberal Arts;Chemistry,https://www.emory.edu
+Georgetown University,United States,37,90,62000,14.4,International Relations;Law;Business;Medicine;Foreign Service;Linguistics;Government;Theology,https://www.georgetown.edu
+University of North Carolina at Chapel Hill,United States,34,85,40000,23.0,Journalism;Business;Medicine;Pharmacy;Public Health;Law;Nursing;Information Science,https://www.unc.edu
+University of Texas at Austin,United States,35,86,42000,31.0,Engineering;Computer Science;Business;Law;Architecture;Communications;Pharmacy;Geosciences,https://www.utexas.edu
+University of Illinois Urbana-Champaign,United States,34,85,38000,45.0,Engineering;Computer Science;Business;Agriculture;Library Science;Physics;Chemistry;Accounting,https://www.illinois.edu
+University of Florida,United States,33,84,30000,31.0,Engineering;Business;Medicine;Law;Agriculture;Journalism;Veterinary Medicine;Pharmacy,https://www.ufl.edu
+Ohio State University,United States,32,82,35000,53.0,Medicine;Engineering;Business;Law;Veterinary Medicine;Nursing;Pharmacy;Agriculture,https://www.osu.edu
+Penn State University,United States,32,82,40000,55.0,Engineering;Business;Agriculture;Meteorology;Education;Communications;Nursing;Information Science,https://www.psu.edu
+Purdue University,United States,34,85,32000,53.0,Engineering;Agriculture;Computer Science;Aviation;Pharmacy;Veterinary Medicine;Business;Physics,https://www.purdue.edu
+University of Minnesota Twin Cities,United States,32,82,36000,57.0,Medicine;Engineering;Business;Law;Psychology;Economics;Agriculture;Public Health,https://www.umn.edu
+Indiana University Bloomington,United States,31,80,40000,80.0,Music;Business;Public Affairs;Journalism;Education;Informatics;Law;Arts,https://www.indiana.edu
+University of Maryland College Park,United States,33,84,40000,45.0,Engineering;Computer Science;Business;Journalism;Public Policy;Criminology;Physics;Agriculture,https://www.umd.edu
+University of Colorado Boulder,United States,32,82,42000,79.0,Aerospace Engineering;Physics;Environmental Science;Business;Music;Law;Psychology;Atmospheric Science,https://www.colorado.edu
+University of Arizona,United States,30,78,38000,84.0,Astronomy;Optical Sciences;Agriculture;Mining Engineering;Anthropology;Nursing;Pharmacy;Business,https://www.arizona.edu
+Arizona State University,United States,30,78,32000,88.0,Engineering;Business;Journalism;Sustainability;Design;Computer Science;Public Policy;Education,https://www.asu.edu
+University of Pittsburgh,United States,33,84,40000,57.0,Medicine;Philosophy;Engineering;Business;Nursing;Pharmacy;Law;Information Science,https://www.pitt.edu
+Tufts University,United States,37,90,62000,15.0,International Relations;Medicine;Veterinary Medicine;Engineering;Nutrition;Dental Medicine;Biology;Drama,https://www.tufts.edu
+Boston College,United States,35,86,62000,24.0,Business;Nursing;Education;Theology;Law;Social Work;Philosophy;Economics,https://www.bc.edu
+University of Rochester,United States,35,86,60000,34.0,Music;Medicine;Optics;Engineering;Business;Nursing;Political Science;Economics,https://www.rochester.edu
+Case Western Reserve University,United States,35,86,56000,30.0,Medicine;Engineering;Nursing;Law;Biomedical Engineering;Management;Social Work;Dental Medicine,https://www.case.edu
+Northeastern University,United States,34,85,58000,18.0,Computer Science;Engineering;Business;Health Sciences;Criminal Justice;Pharmacy;Journalism;International Affairs,https://www.northeastern.edu
+Tulane University,United States,34,85,60000,13.0,Public Health;Business;Law;Architecture;Medicine;Social Work;Latin American Studies;Environmental Studies,https://www.tulane.edu
+University of Miami,United States,33,84,56000,28.0,Marine Science;Music;Business;Medicine;Law;Communication;Engineering;Architecture,https://www.miami.edu
+Wake Forest University,United States,35,86,60000,25.0,Business;Law;Medicine;Divinity;Biology;Computer Science;Communication;Economics,https://www.wfu.edu
+University of California Irvine,United States,34,85,45000,30.0,Computer Science;Engineering;Medicine;Business;Criminology;Arts;Nursing;Pharmaceutical Sciences,https://www.uci.edu
+University of California Santa Barbara,United States,34,85,45000,32.0,Physics;Materials Science;Engineering;Marine Biology;Environmental Studies;Economics;Communication;Geography,https://www.ucsb.edu
+Rutgers University,United States,32,82,36000,61.0,Pharmacy;Engineering;Business;Medicine;Social Work;Library Science;Planning;Communication,https://www.rutgers.edu
+Stony Brook University,United States,32,82,30000,44.0,Medicine;Marine Science;Computer Science;Engineering;Physics;Health Technology;Nursing;Journalism,https://www.stonybrook.edu
+University of Massachusetts Amherst,United States,31,80,38000,58.0,Computer Science;Engineering;Linguistics;Hospitality;Polymer Science;Public Health;Nursing;Education,https://www.umass.edu
+Virginia Tech,United States,33,84,35000,57.0,Engineering;Architecture;Agriculture;Business;Veterinary Medicine;Natural Resources;Computer Science;Design,https://www.vt.edu
+Texas A&M University,United States,32,82,38000,63.0,Engineering;Agriculture;Veterinary Medicine;Business;Architecture;Geosciences;Nuclear Engineering;Marine Biology,https://www.tamu.edu
+Michigan State University,United States,32,82,42000,72.0,Education;Supply Chain Management;Agriculture;Veterinary Medicine;Criminal Justice;Communication;Engineering;Hospitality,https://www.msu.edu
+University of Iowa,United States,31,80,35000,84.0,Creative Writing;Medicine;Law;Business;Nursing;Pharmacy;Education;Health Sciences,https://www.uiowa.edu
+University of Connecticut,United States,32,82,42000,50.0,Pharmacy;Business;Education;Engineering;Nursing;Puppetry;Physical Therapy;Marine Science,https://www.uconn.edu
+Brandeis University,United States,35,86,60000,33.0,Social Policy;Neuroscience;International Studies;Business;Computer Science;Biology;Economics;Near Eastern Studies,https://www.brandeis.edu
+Lehigh University,United States,33,84,58000,37.0,Engineering;Business;Computer Science;Design;Chemistry;International Relations;Physics;Mathematics,https://www.lehigh.edu
+Rensselaer Polytechnic Institute,United States,34,85,58000,47.0,Engineering;Architecture;Computer Science;Game Design;Business;Physics;Biotechnology;Information Technology,https://www.rpi.edu
+University of York,Canada,31,80,28000,62.0,Business;Law;Engineering;Health;Psychology;Computer Science;Fine Arts;Environmental Studies,https://www.yorku.ca
+University of Victoria,Canada,32,82,26000,58.0,Ocean Sciences;Climate Studies;Engineering;Business;Law;Indigenous Studies;Computer Science;Public Health,https://www.uvic.ca
+Carleton University,Canada,31,80,30000,65.0,Journalism;International Affairs;Engineering;Architecture;Public Policy;Computer Science;Business;Cognitive Science,https://www.carleton.ca
+Concordia University,Canada,30,78,25000,70.0,Film;Business;Engineering;Fine Arts;Computer Science;Communications;Design;Psychology,https://www.concordia.ca
+SOAS University of London,United Kingdom,35,86,24000,35.0,Asian Studies;African Studies;Law;Languages;Development Studies;Economics;Politics;Anthropology,https://www.soas.ac.uk
+Heriot-Watt University,United Kingdom,32,80,22000,55.0,Engineering;Actuarial Science;Business;Petroleum Engineering;Textiles;Languages;Computer Science;Psychology,https://www.hw.ac.uk
+University of Strathclyde,United Kingdom,33,82,24000,48.0,Engineering;Business;Pharmacy;Law;Architecture;Computer Science;Physics;Biomedical Engineering,https://www.strath.ac.uk
+Cranfield University,United Kingdom,35,86,28000,40.0,Aerospace Engineering;Defence;Management;Manufacturing;Water Science;Energy;Logistics;Environmental Science,https://www.cranfield.ac.uk
+Birkbeck University of London,United Kingdom,30,78,18000,65.0,Psychology;Law;Economics;Film;Journalism;Business;Geography;Politics,https://www.bbk.ac.uk
+University of Stirling,United Kingdom,30,78,20000,62.0,Aquaculture;Environmental Science;Sports Studies;Film;Psychology;Business;Marketing;Education,https://www.stir.ac.uk
+University of East Anglia,United Kingdom,33,82,24000,48.0,Creative Writing;Environmental Science;Medicine;Pharmacy;Film Studies;Development Studies;Climate Science;Art History,https://www.uea.ac.uk
+Royal Veterinary College,United Kingdom,36,88,35000,28.0,Veterinary Medicine;Veterinary Nursing;Biological Sciences;Bioveterinary Sciences;Wildlife Biology;Zoology;Animal Behaviour,https://www.rvc.ac.uk

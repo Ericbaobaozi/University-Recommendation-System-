@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Recommender System</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="/" class="navbar-brand">
+        <div class="navbar-logo">🎓</div>
+        <span>UniRecommender</span>
+      </a>
+      <ul class="navbar-nav">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#form">Get Started</a></li>
+        <li>
+          <label class="small" style="margin: 0; color: white;">
+            Theme:
+            <select id="navThemeSelect" aria-label="Theme select">
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+            </select>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Find Your Perfect University</h1>
+      <p>Intelligent recommendations based on your scores, budget, interests, and preferences. Discover universities that match your goals.</p>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <div class="container">
+    {% if error %}
+    <div class="form-error" role="alert">{{ error }}</div>
+    {% endif %}
+    <!-- Features Section -->
+    <section id="features">
+      <h2 style="text-align: center; color: var(--brand-blue); margin-bottom: 32px; font-size: 1.8rem;">Why Choose UniRecommender?</h2>
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Smart Matching</h3>
+          <p>Advanced algorithm considers grades, budget, interests, and location to find perfect matches.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3>Global Universities</h3>
+          <p>Explore top universities from around the world with comprehensive data and admission rates.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Detailed Insights</h3>
+          <p>See match scores broken down by components to understand compatibility.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💾</div>
+          <h3>Export Results</h3>
+          <p>Download your recommendations as CSV for easy sharing and comparison.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form">
+      <form id="recommenderForm" action="/results" method="post">
+        <h2>Start Your University Search</h2>
+        
+        <div class="form-row">
+          <div>
+            <label for="score_type">Score Type:
+              <select id="score_type" name="score_type" required>
+                <option value="IB">IB (International Baccalaureate)</option>
+                <option value="OSSD">OSSD (Ontario Secondary School Diploma)</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <label for="raw_score">Your Score:
+              <input id="raw_score" name="raw_score" type="number" placeholder="Enter your score" required>
+            </label>
+            <div id="scoreHelp" class="meta-small" style="margin-top:6px; color:var(--muted);">Enter your score (select IB or OSSD for specific guidance).</div>
+          </div>
+        </div>
+
+          <div class="form-row">
+          <div>
+            <label for="budget">Annual Budget ($):
+              <input id="budget" name="budget" type="number" placeholder="e.g., 50000" required>
+            </label>
+          </div>
+          <div>
+            <label for="interests">Interests:
+              <div class="tag-input">
+                <input id="interestInput" type="text" placeholder="Add an interest and press Enter">
+                <div id="interestTags" class="tag-list">
+                  {% for it in interests|default([]) %}
+                  <span class="tag" data-value="{{ it }}">{{ it }} <button type="button" class="tag-remove" aria-label="Remove">×</button><input type="hidden" name="interests" value="{{ it }}"></span>
+                  {% endfor %}
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <label for="countries">Preferred Countries:
+            <div class="tag-input">
+              <input id="countryInput" type="text" placeholder="Add a country and press Enter">
+              <div id="countryTags" class="tag-list">
+                {% for c in countries|default([]) %}
+                <span class="tag" data-value="{{ c }}">{{ c }} <button type="button" class="tag-remove" aria-label="Remove">×</button><input type="hidden" name="countries" value="{{ c }}"></span>
+                {% endfor %}
+              </div>
+            </div>
+          </label>
+        </div>
+
+        <div style="margin: 24px 0;">
+          <p style="font-weight: 700; color: var(--brand-blue); margin-bottom: 16px; font-size: 1.15rem;">Set Importance Levels</p>
+          <div class="form-row">
+            <div>
+              <label for="w_grade">Grade Importance: <span class="slider-value" id="v_w_grade">{{ w_grade|default(40) }}</span>%
+                <input id="w_grade" name="w_grade" type="range" min="0" max="100" step="10" value="{{ w_grade|default(40) }}">
+              </label>
+            </div>
+            <div>
+              <label for="w_budget">Budget Importance: <span class="slider-value" id="v_w_budget">{{ w_budget|default(30) }}</span>%
+                <input id="w_budget" name="w_budget" type="range" min="0" max="100" step="10" value="{{ w_budget|default(30) }}">
+              </label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="w_interest">Interest Match Importance: <span class="slider-value" id="v_w_interest">{{ w_interest|default(20) }}</span>%
+                <input id="w_interest" name="w_interest" type="range" min="0" max="100" step="10" value="{{ w_interest|default(20) }}">
+              </label>
+            </div>
+            <div>
+              <label for="w_country">Country Preference Importance: <span class="slider-value" id="v_w_country">{{ w_country|default(10) }}</span>%
+                <input id="w_country" name="w_country" type="range" min="0" max="100" step="10" value="{{ w_country|default(10) }}">
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" style="width: 100%; padding: 16px; font-size: 1.15rem; margin-top: 8px;">🎯 Get My Recommendations</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommendations</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="/" class="navbar-brand">
+        <div class="navbar-logo">🎓</div>
+        <span>UniRecommender</span>
+      </a>
+      <ul class="navbar-nav">
+        <li><a href="/">← Back to Home</a></li>
+        <li>
+          <label class="small" style="margin: 0; color: white;">
+            Theme:
+            <select id="navThemeSelect" aria-label="Theme select">
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+            </select>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 style="color: var(--brand-blue); margin-bottom: 24px;">Your Personalized Recommendations</h1>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label>Filter by Classification:</label>
+        <button class="filter-btn" data-filter="Safety">Safety</button>
+        <button class="filter-btn" data-filter="Target">Target</button>
+        <button class="filter-btn" data-filter="Reach">Reach</button>
+      </div>
+      <div class="filter-group">
+        <label for="countryFilter">Country:</label>
+        <select id="countryFilter" class="filter-select">
+          <option value="all">All Countries</option>
+          {% set countries = results | map(attribute='country') | unique | list %}
+          {% for country in countries %}
+          {% if country %}
+          <option value="{{ country }}">{{ country }}</option>
+          {% endif %}
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>University</th>
+            <th class="sortable" data-sort="match">Match Score</th>
+            <th>Analysis</th>
+            <th class="sortable" data-sort="admission">Admission Rate</th>
+            <th class="sortable" data-sort="tuition">Tuition</th>
+            <th>Majors</th>
+            <th class="sortable" data-sort="country">Country</th>
+          </tr>
+        </thead>
+        <tbody id="universities-tbody">
+          {% for r in results %}
+          <tr class="university-row" data-grade="{{ r.components.grade }}" data-budget="{{ r.components.budget }}"
+            data-interest="{{ r.components.interest }}" data-match="{{ r.match_score }}"
+            data-classification="{{ r.classification|lower }}" data-country="{{ r.components.country }}"
+            data-admission="{{ r.admission_rate }}" data-tuition="{{ r.tuition }}"
+            {% if loop.index > 10 %}style="display: none;"{% endif %}>
+            <td>
+              <strong>{{ r.name }}</strong>
+              <span class="badge {{ r.classification|lower }}">{{ r.classification }}</span>
+              {% if r.source_url %}
+              <div style="margin-top:6px;">
+                <a href="{{ r.source_url }}" target="_blank" rel="noopener" class="secondary"
+                  style="padding:6px 10px; font-size:0.9rem;">🔗 Visit website</a>
+              </div>
+              {% endif %}
+            </td>
+            <td class="match-cell">
+              <div class="match-bar">
+                <div class="fill">{{ r.match_score }}</div>
+              </div>
+            </td>
+            <td style="text-align: center;">
+              <span class="analysis-indicator">📊 Click to View</span>
+            </td>
+            <td>{{ r.admission_rate or 'N/A' }}</td>
+            <td>${{ "{:,.0f}".format(r.tuition) if r.tuition else 'N/A' }}</td>
+            <td><small>{{ r.majors or 'N/A' }}</small></td>
+            <td>{{ r.country or 'N/A' }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {% if results|length > 10 %}
+    <div style="margin-top: 20px; text-align: center;">
+      <button id="showMoreBtn" class="secondary" style="padding: 12px 32px; font-size: 1rem;">
+        📂 Show More Universities
+      </button>
+    </div>
+    {% endif %}
+
+    <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+      <form action="/export" method="post" style="display: inline;">
+        <input type="hidden" name="csv_text" value="{{ csv_text }}">
+        <button type="submit" class="secondary">📥 Export to CSV</button>
+      </form>
+      <a href="/" style="display: inline-block;">
+        <button class="secondary">🔄 New Search</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/radar_chart.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/results_interactive.js') }}"></script>
+</body>
+
+</html>
